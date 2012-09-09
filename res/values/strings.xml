@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">list_view</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_list_view_demo">ListViewDemo</string>
+    <string name="title_activity_main">ListView Samples</string>
+    <string name="cursor_adapter_label">Cursor Adapter</string>
+    <string name="array_adapter_label">Array Adapter</string>
+    <string name="title_activity_array">ArrayActivity</string>
+    <string name="title_activity_custom_adapter">CustomAdapterActivity</string>
+    <string name="custom_adapter_label">Custom Adapter</string>
+    <string name="simple_adapter_label">Simple Adapter</string>
+    
+    
+
+</resources>
