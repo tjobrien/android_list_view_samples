@@ -11,7 +11,8 @@
     <string name="title_activity_custom_adapter">CustomAdapterActivity</string>
     <string name="custom_adapter_label">Custom Adapter</string>
     <string name="simple_adapter_label">Simple Adapter</string>
-    
-    
+    <string name="date_holder">Date Goes Here</string>
+    <string name="title_activity_two_darray">TwoD Array</string>
+    <string name="twod_adapter_label">TwoD Array</string>
 
 </resources>

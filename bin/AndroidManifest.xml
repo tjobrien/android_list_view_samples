@@ -40,9 +40,14 @@
             <intent-filter>
             </intent-filter>
         </activity>
-        <activity 
-            android:name=".SimpleAdapterActivity">
-            
+        <activity android:name=".SimpleAdapterActivity" >
+        </activity>
+        <activity
+            android:name=".TwoDArray"
+            android:label="@string/title_activity_two_darray" >
+            <intent-filter>
+
+            </intent-filter>
         </activity>
     </application>
 

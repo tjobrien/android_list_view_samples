@@ -23,11 +23,12 @@ public class ArrayActivity extends ListActivity {
         list_OS.add("Android");
         list_OS.add("iPhone");
         list_OS.add("Linux");
-        //single textview in android list
+       // single textview in android list
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
         		  android.R.layout.simple_list_item_1, android.R.id.text1, list_OS);  // can use ArrayList (list_OS, or Array (values)
         ArrayList<String> list_Comments = getComments();
-       
+        
+        
         
         
         setListAdapter(adapter);

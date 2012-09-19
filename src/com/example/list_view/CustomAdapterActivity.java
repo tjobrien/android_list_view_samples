@@ -16,7 +16,8 @@ public class CustomAdapterActivity extends ListActivity {
         String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
                 "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
                 "Linux", "OS/2" };
-        CustomArrayAdapter myAdapter = new CustomArrayAdapter(this, values);
+        String [] keys = new String[] {"Good", "Great", "Ugh", "Ugh", "???", "Free", "Not Free", "The King", "Anus", "Old"};
+        CustomArrayAdapter myAdapter = new CustomArrayAdapter(this, values, keys);
         setListAdapter(myAdapter);
     }
 
