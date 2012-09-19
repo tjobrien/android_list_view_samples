@@ -26,6 +26,8 @@ public class ArrayActivity extends ListActivity {
        // single textview in android list
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
         		  android.R.layout.simple_list_item_1, android.R.id.text1, list_OS);  // can use ArrayList (list_OS, or Array (values)
+        //ArrayAdapter is 1 dimensional
+        
         ArrayList<String> list_Comments = getComments();
         
         

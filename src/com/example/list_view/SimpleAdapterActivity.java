@@ -18,13 +18,14 @@ import android.support.v4.app.NavUtils;
 
 public class SimpleAdapterActivity extends Activity {
 	ListView mListView;
-	//uses a defined layout - could use do this with ListActivity - see SimpleAdapterListActivity for a sample
+	//uses a defined layout
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simple_adapter);
         mListView = (ListView) this.findViewById(R.id.list);
         Log.v("SimpleAdapterActivity", "reference to ListView");
+        //Data to load - see below for another set of data.
         ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
         
         HashMap<String, String> item = new HashMap<String, String>();
